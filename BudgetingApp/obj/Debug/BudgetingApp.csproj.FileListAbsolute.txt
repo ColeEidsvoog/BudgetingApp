@@ -1,0 +1,13 @@
+C:\Users\eidsv\Desktop\BudgetingApp\bin\Debug\BudgetingApp.exe.config
+C:\Users\eidsv\Desktop\BudgetingApp\bin\Debug\BudgetingApp.exe
+C:\Users\eidsv\Desktop\BudgetingApp\bin\Debug\BudgetingApp.pdb
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.csproj.AssemblyReference.cache
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.Properties.Resources.resources
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.csproj.GenerateResource.cache
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.csproj.CoreCompileInputs.cache
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.exe
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.pdb
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.FinancialChart.resources
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.SignUp.resources
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.FinancialAssesment.resources
