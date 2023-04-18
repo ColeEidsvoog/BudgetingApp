@@ -129,5 +129,10 @@ namespace BudgetingApp
             // Update the otherSaving variable to match the state of the otherCheckBox.
             otherSaving = otherCheckBox.Checked;
         }
+
+        private void FinancialAssessment_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

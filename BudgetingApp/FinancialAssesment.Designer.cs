@@ -1,6 +1,6 @@
 ﻿namespace BudgetingApp
 {
-    partial class FinancialAssesment
+    partial class FinancialAssessment
     {
         /// <summary>
         /// Required designer variable.
@@ -44,23 +44,25 @@
             this.label5 = new System.Windows.Forms.Label();
             this.userNameLabel = new System.Windows.Forms.Label();
             this.submitButton = new System.Windows.Forms.Button();
+            this.financialAssesmentGroupBox = new System.Windows.Forms.GroupBox();
+            this.financialAssesmentGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(37, 30);
+            this.label1.Location = new System.Drawing.Point(395, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 28);
+            this.label1.Size = new System.Drawing.Size(318, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Financial Assesment";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 85);
+            this.label2.Location = new System.Drawing.Point(179, 31);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +70,7 @@
             // 
             // incomeTextBox
             // 
-            this.incomeTextBox.Location = new System.Drawing.Point(178, 82);
+            this.incomeTextBox.Location = new System.Drawing.Point(325, 28);
             this.incomeTextBox.Name = "incomeTextBox";
             this.incomeTextBox.Size = new System.Drawing.Size(130, 20);
             this.incomeTextBox.TabIndex = 2;
@@ -77,7 +79,7 @@
             // saveMoneyGeneralCheckBox
             // 
             this.saveMoneyGeneralCheckBox.AutoSize = true;
-            this.saveMoneyGeneralCheckBox.Location = new System.Drawing.Point(42, 204);
+            this.saveMoneyGeneralCheckBox.Location = new System.Drawing.Point(247, 146);
             this.saveMoneyGeneralCheckBox.Name = "saveMoneyGeneralCheckBox";
             this.saveMoneyGeneralCheckBox.Size = new System.Drawing.Size(129, 17);
             this.saveMoneyGeneralCheckBox.TabIndex = 3;
@@ -90,7 +92,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(39, 167);
+            this.label3.Location = new System.Drawing.Point(117, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(391, 16);
             this.label3.TabIndex = 4;
@@ -100,7 +102,7 @@
             // eraseDebtCheckBox
             // 
             this.eraseDebtCheckBox.AutoSize = true;
-            this.eraseDebtCheckBox.Location = new System.Drawing.Point(42, 227);
+            this.eraseDebtCheckBox.Location = new System.Drawing.Point(247, 169);
             this.eraseDebtCheckBox.Name = "eraseDebtCheckBox";
             this.eraseDebtCheckBox.Size = new System.Drawing.Size(80, 17);
             this.eraseDebtCheckBox.TabIndex = 5;
@@ -111,7 +113,7 @@
             // saveRetirementCheckBox
             // 
             this.saveRetirementCheckBox.AutoSize = true;
-            this.saveRetirementCheckBox.Location = new System.Drawing.Point(42, 250);
+            this.saveRetirementCheckBox.Location = new System.Drawing.Point(247, 192);
             this.saveRetirementCheckBox.Name = "saveRetirementCheckBox";
             this.saveRetirementCheckBox.Size = new System.Drawing.Size(118, 17);
             this.saveRetirementCheckBox.TabIndex = 6;
@@ -122,7 +124,7 @@
             // saveCollegeCheckBox
             // 
             this.saveCollegeCheckBox.AutoSize = true;
-            this.saveCollegeCheckBox.Location = new System.Drawing.Point(42, 273);
+            this.saveCollegeCheckBox.Location = new System.Drawing.Point(247, 215);
             this.saveCollegeCheckBox.Name = "saveCollegeCheckBox";
             this.saveCollegeCheckBox.Size = new System.Drawing.Size(103, 17);
             this.saveCollegeCheckBox.TabIndex = 7;
@@ -133,7 +135,7 @@
             // personalLearningCheckBox
             // 
             this.personalLearningCheckBox.AutoSize = true;
-            this.personalLearningCheckBox.Location = new System.Drawing.Point(42, 296);
+            this.personalLearningCheckBox.Location = new System.Drawing.Point(247, 238);
             this.personalLearningCheckBox.Name = "personalLearningCheckBox";
             this.personalLearningCheckBox.Size = new System.Drawing.Size(111, 17);
             this.personalLearningCheckBox.TabIndex = 8;
@@ -144,7 +146,7 @@
             // otherCheckBox
             // 
             this.otherCheckBox.AutoSize = true;
-            this.otherCheckBox.Location = new System.Drawing.Point(42, 339);
+            this.otherCheckBox.Location = new System.Drawing.Point(247, 284);
             this.otherCheckBox.Name = "otherCheckBox";
             this.otherCheckBox.Size = new System.Drawing.Size(52, 17);
             this.otherCheckBox.TabIndex = 9;
@@ -155,7 +157,7 @@
             // forPurchaseCheckBox
             // 
             this.forPurchaseCheckBox.AutoSize = true;
-            this.forPurchaseCheckBox.Location = new System.Drawing.Point(42, 316);
+            this.forPurchaseCheckBox.Location = new System.Drawing.Point(247, 261);
             this.forPurchaseCheckBox.Name = "forPurchaseCheckBox";
             this.forPurchaseCheckBox.Size = new System.Drawing.Size(113, 17);
             this.forPurchaseCheckBox.TabIndex = 10;
@@ -166,7 +168,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 113);
+            this.label4.Location = new System.Drawing.Point(179, 68);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 13);
             this.label4.TabIndex = 11;
@@ -174,7 +176,7 @@
             // 
             // savedTextBox
             // 
-            this.savedTextBox.Location = new System.Drawing.Point(178, 110);
+            this.savedTextBox.Location = new System.Drawing.Point(325, 65);
             this.savedTextBox.Name = "savedTextBox";
             this.savedTextBox.Size = new System.Drawing.Size(130, 20);
             this.savedTextBox.TabIndex = 12;
@@ -201,7 +203,7 @@
             // 
             // submitButton
             // 
-            this.submitButton.Location = new System.Drawing.Point(42, 383);
+            this.submitButton.Location = new System.Drawing.Point(247, 346);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(151, 35);
             this.submitButton.TabIndex = 15;
@@ -209,30 +211,42 @@
             this.submitButton.UseVisualStyleBackColor = true;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
-            // FinancialAssesment
+            // financialAssesmentGroupBox
+            // 
+            this.financialAssesmentGroupBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.financialAssesmentGroupBox.Controls.Add(this.label2);
+            this.financialAssesmentGroupBox.Controls.Add(this.submitButton);
+            this.financialAssesmentGroupBox.Controls.Add(this.incomeTextBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.label4);
+            this.financialAssesmentGroupBox.Controls.Add(this.savedTextBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.otherCheckBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.forPurchaseCheckBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.label3);
+            this.financialAssesmentGroupBox.Controls.Add(this.saveMoneyGeneralCheckBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.personalLearningCheckBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.eraseDebtCheckBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.saveCollegeCheckBox);
+            this.financialAssesmentGroupBox.Controls.Add(this.saveRetirementCheckBox);
+            this.financialAssesmentGroupBox.Location = new System.Drawing.Point(234, 118);
+            this.financialAssesmentGroupBox.Name = "financialAssesmentGroupBox";
+            this.financialAssesmentGroupBox.Size = new System.Drawing.Size(639, 427);
+            this.financialAssesmentGroupBox.TabIndex = 16;
+            this.financialAssesmentGroupBox.TabStop = false;
+            // 
+            // FinancialAssessment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 461);
-            this.Controls.Add(this.submitButton);
+            this.ClientSize = new System.Drawing.Size(1164, 646);
+            this.Controls.Add(this.financialAssesmentGroupBox);
             this.Controls.Add(this.userNameLabel);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.savedTextBox);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.forPurchaseCheckBox);
-            this.Controls.Add(this.otherCheckBox);
-            this.Controls.Add(this.personalLearningCheckBox);
-            this.Controls.Add(this.saveCollegeCheckBox);
-            this.Controls.Add(this.saveRetirementCheckBox);
-            this.Controls.Add(this.eraseDebtCheckBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.saveMoneyGeneralCheckBox);
-            this.Controls.Add(this.incomeTextBox);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "FinancialAssesment";
+            this.Name = "FinancialAssessment";
             this.Text = "Financial Assesment";
-            this.Load += new System.EventHandler(this.FinancialAssesment_Load);
+            this.Load += new System.EventHandler(this.FinancialAssessment_Load_1);
+            this.financialAssesmentGroupBox.ResumeLayout(false);
+            this.financialAssesmentGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -256,5 +270,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label userNameLabel;
         private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.GroupBox financialAssesmentGroupBox;
     }
 }

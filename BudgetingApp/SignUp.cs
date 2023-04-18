@@ -37,7 +37,7 @@ namespace BudgetingApp
 
             // Hide the current form and show the next form (FinancialAssessment)
             this.Hide();
-            FinancialAssesment f2 = new FinancialAssesment();
+            FinancialAssessment f2 = new FinancialAssessment();
             f2.Show();
         }
 
@@ -48,7 +48,8 @@ namespace BudgetingApp
 
         private void passwordTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            // Make password characters unreadable
+            passwordTextBox.PasswordChar = '*';
         }
     }
 }

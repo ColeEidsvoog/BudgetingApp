@@ -44,7 +44,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(37, 23);
+            this.label1.Location = new System.Drawing.Point(362, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(430, 48);
             this.label1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 16);
+            this.label2.Location = new System.Drawing.Point(213, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 22);
             this.label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(24, 76);
+            this.emailTextBox.Location = new System.Drawing.Point(139, 92);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(204, 20);
             this.emailTextBox.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(24, 143);
+            this.passwordTextBox.Location = new System.Drawing.Point(139, 151);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(204, 20);
             this.passwordTextBox.TabIndex = 3;
@@ -79,7 +79,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 58);
+            this.label3.Location = new System.Drawing.Point(136, 76);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 4;
@@ -88,7 +88,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 123);
+            this.label4.Location = new System.Drawing.Point(136, 126);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 5;
@@ -96,7 +96,7 @@
             // 
             // signUpGroupBox
             // 
-            this.signUpGroupBox.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.signUpGroupBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.signUpGroupBox.Controls.Add(this.signUpButton);
             this.signUpGroupBox.Controls.Add(this.label4);
             this.signUpGroupBox.Controls.Add(this.label3);
@@ -104,16 +104,16 @@
             this.signUpGroupBox.Controls.Add(this.emailTextBox);
             this.signUpGroupBox.Controls.Add(this.label2);
             this.signUpGroupBox.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.signUpGroupBox.Location = new System.Drawing.Point(110, 83);
+            this.signUpGroupBox.Location = new System.Drawing.Point(327, 117);
             this.signUpGroupBox.Name = "signUpGroupBox";
-            this.signUpGroupBox.Size = new System.Drawing.Size(246, 239);
+            this.signUpGroupBox.Size = new System.Drawing.Size(500, 299);
             this.signUpGroupBox.TabIndex = 6;
             this.signUpGroupBox.TabStop = false;
             this.signUpGroupBox.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // signUpButton
             // 
-            this.signUpButton.Location = new System.Drawing.Point(24, 198);
+            this.signUpButton.Location = new System.Drawing.Point(139, 198);
             this.signUpButton.Name = "signUpButton";
             this.signUpButton.Size = new System.Drawing.Size(204, 23);
             this.signUpButton.TabIndex = 6;
@@ -121,14 +121,14 @@
             this.signUpButton.UseVisualStyleBackColor = true;
             this.signUpButton.Click += new System.EventHandler(this.signUpButton_Click);
             // 
-            // Form1
+            // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.ClientSize = new System.Drawing.Size(1164, 646);
             this.Controls.Add(this.signUpGroupBox);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "SignUp";
             this.Text = "Start Page";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.signUpGroupBox.ResumeLayout(false);

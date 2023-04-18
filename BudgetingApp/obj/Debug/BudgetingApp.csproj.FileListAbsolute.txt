@@ -10,4 +10,5 @@ C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.exe
 C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.pdb
 C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.FinancialChart.resources
 C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.SignUp.resources
-C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.FinancialAssesment.resources
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.FinancialAssessment.resources
+C:\Users\eidsv\Desktop\BudgetingApp\obj\Debug\BudgetingApp.Report.resources

@@ -13,14 +13,14 @@ namespace BudgetingApp
         public string Name { get; set; }
 
         // The Cost property represents the cost of the expense.
-        public double Cost { get; set; }
+        public int Cost { get; set; }
 
         // The Type property represents the type of the expense.
         public string Type { get; set; }
 
         // The constructor for the Expense class. This method is called when a new
         // Expense object is created.
-        public Expense(string name, double cost, string type)
+        public Expense(string name, int cost, string type)
         {
             // Assign the provided name to the Name property.
             Name = name;
@@ -31,5 +31,9 @@ namespace BudgetingApp
             // Assign the provided type to the Type property.
             Type = type;
         }
+
+        public static List<Expense> totalExpenses = new List<Expense>();
+
+
     }
 }
